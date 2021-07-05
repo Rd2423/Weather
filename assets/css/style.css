@@ -36,3 +36,7 @@ aside {
 #currentWeatherDiv {
     border: solid black;
 }
+
+#forecast {
+    border: solid black;
+}
