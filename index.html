@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header>Weather Dashboard</header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <aside><b id= "searchCity">Search for city:</b>
+            <form id="user-form" class="input-group mb-3 hello">
+                <div id= "inputArea">
+                <input type="text" class="form-control inputTxt" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="City"> 
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary search-button" id= "searchBtn" type="button">Search</button>
+                </div>
+            </form>
+            </aside>
+        </div>
+
+    
+
+        <div class="col-lg" id= "currentWeatherDiv">
+          <section id="currentWeather">
+
+          </section>
+        </div>
+   
+
+    <section id= "forecast">
+
+    </section>
+
+
+
+    <script src= "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src= "./assets/javascript/script.js"></script>
+</body>
+</html>

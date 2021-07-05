@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 0px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font: bold;
+    background-image: linear-gradient(to right, #6495ED, #00008B);
+    position: sticky;
+    
+}
+
+aside {
+    width: 250px;
+    font-size: 28px;
+    color: black;
+}
+
+#searchCity {
+    margin-left: 5px;
+}
+
+
+#inputArea {
+    width: 250px;
+    margin-left: 5px;
+}
+
+
+#searchBtn{
+    width: 250px;
+    margin-left: 5px;
+}
+
+#currentWeatherDiv {
+    border: solid black;
+}
