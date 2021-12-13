@@ -11,6 +11,16 @@ $("#searchBtn").on('click', function(event){
     getWeather(searchValue);
     getForecast(searchValue);
 })
+    
+    $("#searchBtn").addEventListener("keyup", function(event){
+    event.preventDefault();
+    console.log("hey we clicked searchBtn");
+    var searchValue = $('.inputTxt').val();
+    console.log(searchValue);
+
+    getWeather(searchValue);
+    getForecast(searchValue);
+})
 
 
  function getForecast(searchValue) {
